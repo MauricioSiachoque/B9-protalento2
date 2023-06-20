@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+
+    height: 50px;
+    background-color: black ;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.grid-container {
+    display: grid;      
+    grid-template-areas:
+    "img1 img2 img3"
+    "img1 img4 img5"
+    "img6 img7 img8"
+    ; 
+    background-color: yellow;
+    padding: 10px;
+    column-gap: 5px;
+    row-gap: 10px;
+
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;     
+    border-radius: 25px;  
+}
+
+#img1 {
+    grid-area: img1;
+    background-color: red;
+    background-image: url(assets/CRISTIANO_550x650.jpg);
+    background-size: cover;
+}
+#img2 {
+    grid-area: img2;
+}
+#img3 {
+    grid-area: img3; 
+}
+#img4 {
+    grid-area: img4;
+}
+#img5 {
+    grid-area: img5;
+}
+#img6 {
+    grid-area: img6;
+}
+#img7 {
+    grid-area: img7;   
+}
+#img8 {
+    grid-area: img8;  
+}
+
+
+/* SECCION FOOTER */
+
+footer{
+    height: 25px;
+    background-color: black;
+    color: white;
+
+}
