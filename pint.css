@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 10px;
+    height: 10vh;
+    padding-left: 10px;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+
+    border-radius: 9px;
+    transition: 0.3s;
+    height: 80%;
+    width: 50px;
+}
+
+header p:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+}
+
+header p:active{
+    background-color: darkgray;
+}
+
+header i{
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 4px;
+    transition: 0.3s;
+}
+
+header i:hover{
+    cursor: pointer;
+    background-color: rgb(179, 176, 176,0.4);
+}
+
+.buscador{
+    background-image: url(imagenes/lupa.png);
+    background-size: 20px 20px;
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    background-color: rgb(179, 176, 176,0.4);
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 65%;
+    height: 50%;
+}
+
+.lupa{
+    position: absolute;
+    top: calc(50%);
+    left:calc(0% + 20px);
+}
+
+.logo{
+    height: 60%;
+    transition: 0.3s;
+}
+
+.perfil{
+    border-radius: 20px;
+    height: 70%;
+    transition: 0.3s;
+}
+
+.perfil:hover{
+    cursor: pointer !important;
+}
+
+.logo:hover{
+    cursor: pointer;
+    height: 80%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer {
+    height: 10vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 35px;
+    gap: 15px;
+  }
+  
+  .galery1 {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 180px;
+    width: 200px;
+  }
+  .galery2 {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 385px;
+    width: 180px;
+  }
+  
+  .galery3 {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 280px;
+    width: 180px;
+  }
+
+  .galery4 {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 180px;
+    width: 200px;
+  }
+
+  .galery5 {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 230px;
+    width: 200px;
+  }
+
+  .galery6 {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 180px;
+    width: 200px;
+  }
+
+  main img:hover{
+    height: 60%;
+    transition: 0.3s;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+main img:active{
+    background-color: darkgray;
+}
